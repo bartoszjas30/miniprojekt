@@ -1,24 +1,110 @@
 //*GENERAL*//
-a .btn {
+body {
+    margin:0;
+    background:#fff;
+    color: #2c2c54;
+    font-size: 16px;
+    line-height: 1.7;
+    font-family: 'Inconsolata', sans-serif;
+}
+
+.container {
+    max-width: 1140px;
+    padding: 0 10px 0 10px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 50px 0;
+}
+.splash-inner{
+    text-align:center;
+    left:50%;
+    top:50%;
+    right:auto;
+    bottom: auto;
+    transform: translate(-50%, -50%);
+    padding-top:0;
+    padding-bottom:0;
+    position: absolute;
+    margin: 30px auto;
+ 
+}
+.btn {
     display: inline-block;
     min-width: 160px;
-    margin: 24px auto 0 auto;
-    padding: 16px;
+    margin: 30px auto 0 auto;
+    padding: 10px;
     border-radius: none;
     font-family: 'Inconsolata', sans-serif;
     font-size: 16px;
     text-align: center;
     text-decoration: none;
     cursor: pointer;
-    border-width: 2px;
-    border-style: none;
-    background-color: yellow;
+    border: solid #DAA520 2px;
+    background-color: #DAA520;
     background-position: 100% 0;
     background-size: 300%;
+    color: #fff;
 }
-li {
-    list-style-type: none;
+
+ul{
+    list-style: none;
+    margin: 0 auto;
 }
+
+li{
+    display: inline-block;
+}
+
+.navix {
+    float:right;
+    margin: 70px 10px 0 10px;
+
+}
+
+a{
+    color:#fff;
+    text-decoration: none;
+}
+
+a:hover{
+    color:#DAA520;
+    transition: all 1.3s;
+}
+
+img{
+    margin: 30px auto;
+
+}
+
+header{
+    background-image: url(https://i.postimg.cc/d0q59J98/shutterstock-1868757775.jpg);
+    height: 95vh;
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+
 h2 {
-    color:aqua;
+    color:#fff;
+    font-size:60px;
+    font-family: 'Hurricane', cursive;
+    margin: 0 auto;
+}
+
+h1 {
+    color:#fff;
+    font-size:60px;
+    font-family: Monteserrat(sans-serif);
+    margin: 0 auto 10px auto;
+}
+
+.btn:hover{
+    background: none;
+    border: solid #DAA520 2px;
+    transition: all 1.3s;
 }
