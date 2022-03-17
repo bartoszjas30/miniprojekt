@@ -1,0 +1,27 @@
+a .btn {
+  display: inline-block;
+  min-width: 160px;
+  margin: 24px auto 0 auto;
+  padding: 16px;
+  border-radius: none;
+  font-family: "Inconsolata", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-width: 2px;
+  border-style: none;
+  background-color: yellow;
+  background-position: 100% 0;
+  background-size: 300%;
+}
+
+li {
+  list-style-type: none;
+}
+
+h2 {
+  color: aqua;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFDQTtFQUNJLHFCQUFBO0VBQ0EsZ0JBQUE7RUFDQSx3QkFBQTtFQUNBLGFBQUE7RUFDQSxtQkFBQTtFQUNBLHNDQUFBO0VBQ0EsZUFBQTtFQUNBLGtCQUFBO0VBQ0EscUJBQUE7RUFDQSxlQUFBO0VBQ0EsaUJBQUE7RUFDQSxrQkFBQTtFQUNBLHdCQUFBO0VBQ0EsMkJBQUE7RUFDQSxxQkFBQTtBQ0FKOztBREVBO0VBQ0kscUJBQUE7QUNDSjs7QURDQTtFQUNJLFdBQUE7QUNFSiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
