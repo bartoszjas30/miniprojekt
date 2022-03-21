@@ -240,10 +240,14 @@ h5 {
 }
 
 .social-media li {
-    font-size: none;
     display: inline-block;
     margin: 0 10px 0 0;
 }
+
+.social a{
+    font-size: 0;
+}
+
 
 .social-media i {
     color:#fff;
